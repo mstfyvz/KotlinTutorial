@@ -1,6 +1,11 @@
-#Android (Kotlin) In-App Update
+# Android (Kotlin) In-App Update
 
-#strings.xml
+# build.graddle
+
+    // In-App Updates
+    implementation 'com.google.android.play:core:1.7.2'
+
+# strings.xml
 
     <!-- Actions-->
     <string name="action_grant">Grant</string>
